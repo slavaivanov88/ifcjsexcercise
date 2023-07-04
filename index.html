@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFC.js</title>
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="button" onclick="window.location.href='./index.html';">
+          <span>HOME</span>
+        </button>
+      </div> 
+      <div class="dropdown">
+        <button class="button">
+          <span>MODELS</span>
+        </button>
+        <div id="projects-container" class="dropdown-content">
+          <div class="card">  
+            <a class="button" href="./viewer.html">
+              <h3>Sample project</h3>
+            </a>
+          </div>
+        </div>
+      </div> 
+        <img class="spinning logo" src="./static/ifcjs-logo.svg" alt="IFC.js logo">
+    </div>
+    <center>
+      <img class="spinning large" src="./static/ifcjs-logo.svg" alt="IFC.js logo">
+      <h1>IFC VIEWER</h1>
+    </center>
+    <script type="module" src="./bundle.js"></script>   
+
+    
+</body>
+</html>
