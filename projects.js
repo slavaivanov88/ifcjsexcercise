@@ -1,6 +1,6 @@
 export const projects = [
     {
-        name: "Pavillion",
+        name: "Pavilion",
         id: "1",
         url: "https://ifcjs.github.io/ifcjs-crash-course/sample-apps/01/"
     },
