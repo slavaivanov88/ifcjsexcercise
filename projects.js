@@ -1,26 +1,26 @@
 export const projects = [
     {
-        name: "Model 1",
+        name: "Pavillion",
         id: "1",
         url: "https://ifcjs.github.io/ifcjs-crash-course/sample-apps/01/"
     },
     {
-        name: "Model 2",
+        name: "Restaurant",
         id: "2",
         url: "https://ifcjs.github.io/ifcjs-crash-course/sample-apps/02/"
     },
     {
-        name: "Model 3",
+        name: "Mansion",
         id: "3",
         url: "https://ifcjs.github.io/ifcjs-crash-course/sample-apps/03/"
     },
     {
-        name: "Model 4",
+        name: "Campus",
         id: "4",
         url: "https://ifcjs.github.io/ifcjs-crash-course/sample-apps/04/"
     },
     {
-        name: "Model 5",
+        name: "Hospital",
         id: "5",
         url: "https://ifcjs.github.io/ifcjs-crash-course/sample-apps/05/"
     }
